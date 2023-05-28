@@ -36,8 +36,10 @@
 
 .header {
   margin: 3rem 2.5rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
+  /* border: 1px solid blue; */
 }
 
 .left_header {
@@ -79,6 +81,7 @@
 /* Hero section */
 .hero_section {
   margin: 3rem 2.5rem;
+  margin-top: -25px;
 }
 
 .picture_div {
