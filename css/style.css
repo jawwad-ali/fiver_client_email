@@ -8,7 +8,7 @@
   src: url("../Peachi-Regular.otf") format("truetype"); /* Provide the path to your font file */
 }
 
-.container {
+body {
   background: #f4f4f4;
   border-radius: 40px;
 }
@@ -29,9 +29,11 @@
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
   border-radius: 8px;
 
-  max-width: 500px;
+  max-width: 550px;
   margin-left: auto;
   margin-right: auto;
+
+  padding-bottom: 0.5rem;
 }
 
 .header {
@@ -39,7 +41,6 @@
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid blue; */
 }
 
 .left_header {
@@ -121,10 +122,88 @@
   line-height: 22px;
   text-align: center;
   color: #515759;
+  padding: 0 1.5rem;
 }
 
 .underline {
   text-decoration: underline;
+}
+
+.status_div {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.status,
+.confirmed {
+  font-family: "Inter";
+  font-size: 12px;
+  color: #b6b6b6;
+}
+
+/* Booking Details */
+.booking_details {
+  background: #f9f9f9;
+  border-radius: 30px;
+  margin: 3rem 2.5rem;
+  padding: 1rem;
+}
+
+.booking_details h2 {
+  font-family: "Peachi", sans-serif; /* Use the font by its name */
+  text-align: center;
+}
+
+.details_div {
+  margin-top: 20px;
+}
+
+.details {
+  padding-left: 1.2rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #515759;
+
+  padding-bottom: 5px;
+}
+
+.contact_div {
+  margin: 2rem 2.5rem;
+
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #515759;
+}
+
+.email,
+.second_contact {
+  text-decoration: none;
+  color: #515759;
+}
+
+.email:hover,
+.second_contact:hover {
+  text-decoration: underline;
+}
+
+.note {
+  padding: 0 3rem;
+
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 22px;
+  color: #515759;
+  padding-top: -15px;
+  padding-bottom: 2.1rem;
 }
 
 @media screen and (max-width: 768px) {
