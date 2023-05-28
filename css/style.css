@@ -1,7 +1,7 @@
 /* Container */
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 @font-face {
   font-family: "Peachi"; /* Give a name to your font */
@@ -100,6 +100,10 @@
   color: #0c1014;
 }
 
+.hero_section_paragraph {
+  margin-top: 1.5rem;
+}
+
 .customer_name {
   font-family: "Inter";
   font-size: 16px;
@@ -114,7 +118,10 @@
   line-height: 22px;
   text-align: center;
   color: #515759;
-  margin-top: -15px;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
