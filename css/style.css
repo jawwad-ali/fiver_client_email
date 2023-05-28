@@ -13,10 +13,17 @@ body {
   border-radius: 40px;
 }
 
+.small-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
 .small-text p {
   color: #7d7d7d;
   text-align: center;
-  padding-top: 1.2rem;
   font-family: "Inter";
   font-size: 10px;
 }
@@ -24,6 +31,7 @@ body {
 /* Wrapper */
 .wrapper {
   margin: 3rem;
+  margin-top: -45px;
   background: #ffffff;
 
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
@@ -148,6 +156,7 @@ body {
   background: #f9f9f9;
   border-radius: 30px;
   margin: 3rem 2rem;
+  margin-top: -25px;
   padding: 2rem 0;
 }
 
