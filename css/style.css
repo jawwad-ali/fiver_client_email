@@ -1,13 +1,16 @@
 /* Container */
+*{
+    margin:0;
+    padding:0;
+}
 @font-face {
   font-family: "Peachi"; /* Give a name to your font */
   src: url("../Peachi-Regular.otf") format("truetype"); /* Provide the path to your font file */
 }
 
 .container {
-  background: #ffffff;
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
-  border-radius: 8px;
+  background: #f4f4f4;
+  border-radius: 40px;
 }
 
 .small-text p {
