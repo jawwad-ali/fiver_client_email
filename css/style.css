@@ -1,0 +1,121 @@
+/* Container */
+@font-face {
+  font-family: "Peachi"; /* Give a name to your font */
+  src: url("../Peachi-Regular.otf") format("truetype"); /* Provide the path to your font file */
+}
+
+.container {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+  border-radius: 8px;
+}
+
+.small-text p {
+  color: #7d7d7d;
+  text-align: center;
+  padding-top: 1.2rem;
+  font-family: "Inter";
+  font-size: 10px;
+}
+
+/* Wrapper */
+.wrapper {
+  margin: 3rem;
+  background: #ffffff;
+
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+  border-radius: 8px;
+
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  margin: 3rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse_img {
+  width: 48px;
+  height: 48px;
+}
+
+.left_header_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 0.5rem;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0c1014;
+}
+
+.co-founder {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #7d7d7d;
+}
+
+/* Hero section */
+.hero_section {
+  margin: 3rem 2.5rem;
+}
+
+.picture_div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.picture_div_img {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  font-family: "Peachi", sans-serif; /* Use the font by its name */
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 2rem;
+  color: #0c1014;
+}
+
+.customer_name {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #515759;
+}
+
+.thank_you_text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #515759;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 768px) {
+  .right_header_img {
+    width: 80px;
+  }
+}
