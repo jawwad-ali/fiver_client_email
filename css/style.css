@@ -147,8 +147,8 @@ body {
 .booking_details {
   background: #f9f9f9;
   border-radius: 30px;
-  margin: 3rem 2.5rem;
-  padding: 1rem;
+  margin: 3rem 2rem;
+  padding: 2rem 0;
 }
 
 .booking_details h2 {
@@ -204,6 +204,23 @@ body {
   color: #515759;
   padding-top: -15px;
   padding-bottom: 2.1rem;
+}
+
+/* Footer */
+footer {
+  max-width: 550px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+footer > p > a {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #1890ff;
 }
 
 @media screen and (max-width: 768px) {
