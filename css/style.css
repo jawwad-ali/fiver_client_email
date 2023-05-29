@@ -224,6 +224,10 @@ footer {
   margin-bottom: 5px;
 }
 
+footer p {
+	text-align:right;
+}
+
 footer > p > a {
   font-family: "Inter";
   font-weight: 500;
